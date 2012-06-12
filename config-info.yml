@@ -1,0 +1,11 @@
+# Example configuration options that can be placed in your main SiriProxy config.yml
+
+############################################
+# NOTICE: Modifying these options in this 
+#         file has no effect. You must put 
+#         them in SiriProxy's ~/.siriproxy/config.yml
+############################################
+
+    - name: 'Jailbreak' #don't touch
+      path: 'git://github.com/LetsUnlockiPhone/SiriProxy-iDevice-Jailbreak-State-Plugin.git' #don't touch
+
