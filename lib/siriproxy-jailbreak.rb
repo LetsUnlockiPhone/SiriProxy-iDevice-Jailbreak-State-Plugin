@@ -11,7 +11,7 @@ class SiriProxy::Plugin::Jailbreak < SiriProxy::Plugin
   end
 
 	def get_jailbrake(device, version, ios)
-		url = "http://macorg.net/jailbreak.php?device=#{device}&version=#{version}&ios=#{ios}"
+		url = "http://www.letsunlockiphone.com/jailbreak.php?device=#{device}&version=#{version}&ios=#{ios}"
 		page = HTTParty.get(uri).body
 
 		#parse and return content here
